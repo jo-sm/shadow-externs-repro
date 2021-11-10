@@ -1,0 +1,15 @@
+{
+  "name": "shadow-externs-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "clojure -M:dev watch app module"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "random-module": "file:./random-module"
+  }
+}
