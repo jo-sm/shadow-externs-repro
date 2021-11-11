@@ -4,7 +4,7 @@
                 :output-dir "public/js"
                 :module-loader true
                 :asset-path "/js"
-                :compiler-options {:infer-externs :auto}
+                :compiler-options {:infer-externs false}
                 :modules {:app {:entries [app.main]}}}
           :module {:target :npm-module
                    :output-dir "public/npm"
